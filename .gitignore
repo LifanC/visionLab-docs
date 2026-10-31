@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Local configuration and generated files
+.env
+.env.*
+!.env.example
+uploads/
+outputs/
+*.log

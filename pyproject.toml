@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vision-lab"
+version = "0.1.0"
+description = "AI image recognition SaaS using external APIs"
+readme = "README.md"
+requires-python = ">=3.13"
+
+dependencies = [
+    "fastapi[standard]",
+    "httpx",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["vision_lab*"]
+exclude = ["vision_lab.tests*"]
+
+[project.scripts]
+vision-lab = "vision_lab.main:main"

@@ -12,6 +12,7 @@ requires-python = ">=3.13"
 dependencies = [
     "fastapi[standard]",
     "httpx",
+    "opencv-python",
 ]
 
 [tool.setuptools.packages.find]
@@ -20,4 +21,4 @@ include = ["vision_lab*"]
 exclude = ["vision_lab.tests*"]
 
 [project.scripts]
-vision-lab = "vision_lab.main:main"
+vision-lab = "vision_lab.main:cli"

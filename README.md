@@ -25,7 +25,7 @@ py -3.13 -m venv .venv
 
 ### 雙擊或用 CMD 執行
 
-參考 `quant-flow-docs/run-screen.cmd` 的方式，雙擊根目錄的 `run-vision.cmd` 即可執行。預設門檻為 `0.4`，輸出 JSON、CSV、兩張標註圖、物件裁切和左右對照圖；不開啟 OpenCV 視窗，執行完成後保留 CMD 視窗供查看訊息。
+雙擊根目錄的 `run-vision.cmd` 即可執行。預設門檻為 `0.4`，輸出 JSON、CSV、兩張標註圖、物件裁切和左右對照圖；不開啟 OpenCV 視窗，執行完成後保留 CMD 視窗供查看訊息。
 
 也可以在 CMD 執行，或附加參數：
 
